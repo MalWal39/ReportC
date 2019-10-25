@@ -1,0 +1,15 @@
+ .button{
+	 
+	 background:#ff00e4;
+	 border-radius:30px;
+	 text-align: right;
+	 width:100px;
+	 padding-right:20px;
+ }
+
+.bubble{
+	
+	border-radius:30px;
+	text-align:center;
+	background:pink;
+}

@@ -1,0 +1,49 @@
+	    .centered{
+		           text-aligned: center;
+		        }
+				
+		
+		
+		.bor{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+			transform: translate(-50%, -50%);
+			border-radius: 10px;
+			border-style: solid;
+			border-color:yellow;
+            background-color:white;			
+			width:35%;
+			padding: 10px;
+			
+            			
+            }
+			
+			body {
+					margin: 0;
+					padding: 0;
+					font-family: sans-serif;
+					background-image:url('photoep.jpg');
+					background-size: cover;
+				}
+				
+	.login{
+	 color: yellow;
+	 background:blue;
+	 border-radius:30px;
+	 text-align: right;
+	 width:100px;
+	 padding-right:20px;
+ }
+
+.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    padding: 40px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border-color:yellow;
+    }

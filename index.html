@@ -1,0 +1,64 @@
+<!doctype html>
+
+ <html>
+   <head>
+   <link rel="stylesheet" href="stylesheet.css">
+     <title> CP Ellingham High School </title>
+	 
+	 <style>
+			
+    </style>
+			 </head>
+			 <body>
+			      <h1 style="font-family:Informal Roman;color:blue"> <u>Welcome to CP Ellingham High School website </u></h1>
+				  <div class="centered">
+				    <center>
+					   <form  id="index"class="bor" action="" method="get">
+					      <label> Username</label>
+						  <input id="username" name="username"> 
+						  <br> </br>
+						  <label>Password</label>
+						  <input id="password" name="password" type="password">
+						  <br> </br>
+						  <button class="login" type="submit" id="submit" name="submit" >login</button>
+						  <div id="message"></div>
+						 </form>
+<script>
+	var form = document.getElementById('index');
+	var message = document.getElementById('message');
+	
+		form.onsubmit = function(e){
+			e.preventDefault();
+			
+			console.log(form.username.value);
+			console.log(form.password.value);
+		
+			if (form.username.value =="admin" && form.password.value == "admin"){
+			
+			window.location = "Reportcard.html";
+			}
+			else{
+				message.innerHTML = " wrong!!!";
+				form.reset();
+			}     		 
+		};
+</script>
+					</center>
+					</div>
+					
+			 
+			
+	
+	
+	
+	       
+	
+	
+	
+	
+	</body> 
+   
+ 
+ 
+ 
+ </html>
